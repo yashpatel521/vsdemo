@@ -55,6 +55,11 @@
     $(document).ready(function() {
         $('.btnclick').click(function() {
 
+            // $.get('save.php', function(data, status) {
+            //     $('#loaddata').html(data);
+            //     alert(status);
+            // })
+
             $.post('save.php', {
 
                     name: "Yash",
